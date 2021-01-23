@@ -38,3 +38,10 @@ from the challenge discrytion we can get a hint that we change the image to ```B
 and get the flag from it
 
 flag:inctfj{th3_fl4g_wa5_liter4lly_ins1de_4_m3me}
+
+JAY-CHOT
+---------
+In this challenge we are give a ```.jpg``` , but it is not openning
+when we check the  in hexedit in the magic bytes instead of ```FF D8 FF E0```   ther ```FF D9 FF E0``` 
+we can edit it and open it and get teh flag
+flag:flag{a4aa04741a8d3a952a7ec88457991b97}
