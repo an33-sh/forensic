@@ -45,3 +45,18 @@ In this challenge we are give a ```.jpg``` , but it is not openning
 when we check the  in hexedit in the magic bytes instead of ```FF D8 FF E0```   ther ```FF D9 FF E0``` 
 we can edit it and open it and get teh flag
 flag:flag{a4aa04741a8d3a952a7ec88457991b97}
+
+ MY-FIRST-STENGOGRAPHY
+ ---------------------
+ In this challenge we have two jpg file,which has soem file inside it we have to find it
+ using ```steghide``` we can ddecode it
+ ```
+ steghide extract -sf av_9f437f5f-aa31-4109-b07f-3650c4e31d1d.jpg #with no password
+ ```
+we get the pasword for the second file
+```
+steghide extract -sf av_c02de02d-0f7c-4732-bf60-26acc37470f0.jpg 
+```
+give the password got from the first got password.txt
+then we get a plans.txt with flag inside it
+flag:inctfj{w3_4r3_pl4nt1ng_4_b0mb}
