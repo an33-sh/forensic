@@ -63,3 +63,16 @@ give the password got from the first got password.txt
 then we get a plans.txt with flag inside it
 
 flag:inctfj{w3_4r3_pl4nt1ng_4_b0mb}
+
+YOU CAN'T SEE ME
+-----------------
+In this we get a png file which cannot be opened,if we check it with hex edit we can see that the **magic bytes** and 
+**critical chunks** are corrupted
+so we can edit it using ```hexedit``` or ```ghex```
+```
+IDHR => IHDR
+idat => IDAT
+INED => IEND
+```
+after saving the file we can open it and see the flag
+flag:inctf{WH4T_ar3_pNgCHUnkS?}
