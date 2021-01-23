@@ -76,3 +76,17 @@ INED => IEND
 ```
 after saving the file we can open it and see the flag
 flag:inctf{WH4T_ar3_pNgCHUnkS?}
+
+SECURITY 101
+-------------
+In this challenge we are give a zip file when we extract it we can see two files inside it one image and 
+one zip file wich is password protected
+from the description we can assume that username will be password for the zip file
+we have to find the user whow created it so we can use ```exiftool``` to find the metadata of the image
+```
+exiftool my_inspiration.jpg
+```
+from the image's metadata we can see the creator is ```R3DDIT_US3R```
+ so we can use this as the password  for the zip 
+ when we open the zip there is an image which has the flag
+ flag:inctfj{1ts_4ll_f1ne_tru5t_m3}
