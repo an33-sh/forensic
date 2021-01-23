@@ -30,3 +30,11 @@ and when we go the link we can get the flag
 ```
 $ jsteg reveal av_b7cfaf3c-883f-4818-8da2-0bcd8360fbb8.jpg a.txt
 ```
+flag : inctfj{gr0ve_5treet_f0r_l1fe}
+
+ALWAYS HAS BEEN
+---------------
+from the challenge discrytion we can get a hint that we change the image to ```BLUE PLANE``` ,Using stegsolve we can change the plane
+and get the flag from it
+
+flag:inctfj{th3_fl4g_wa5_liter4lly_ins1de_4_m3me}
