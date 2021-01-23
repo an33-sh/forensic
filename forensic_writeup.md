@@ -90,3 +90,11 @@ from the image's metadata we can see the creator is ```R3DDIT_US3R```
  so we can use this as the password  for the zip 
  when we open the zip there is an image which has the flag
  flag:inctfj{1ts_4ll_f1ne_tru5t_m3}
+ 
+ THE OFFICE TROUBLE
+ ------------------
+ In this challenge there is a zip file encrypted with password 
+ we can use fcrackzip to crack teh password
+ ```fcrackzip -D -u -p rockyou.txt av_b62152ea-cc85-43ab-8af1-f39915814327.zip ```
+  which will give us the password and we will get an image inside the zip which has the flag
+  flag:inctfj{dw1ght_1s_cr4zy_bu7_awes0me}
